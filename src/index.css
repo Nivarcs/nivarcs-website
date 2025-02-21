@@ -1,0 +1,27 @@
+/* index.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; /* Setting a default font */
+    background-color: #fff; /* Background color for the app */
+    color: #333; /* Text color */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body take full height */
+  }
+  
+  #root {
+    width: 100%;
+    max-width: 1200px; /* Limiting the width of the content */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
